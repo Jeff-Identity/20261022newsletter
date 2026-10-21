@@ -16,9 +16,11 @@ h1, h2, h3, h4, h5, h6{line-height: 1.2; margin: 0;}
 .newsletter .browser-link {color: #fff;font-size: 12px;font-weight: 700;text-decoration: underline;}
 .newsletter .browser-link:hover{color: #F85241;}
 
+.newsletter .hero {min-height: 188px; background: url(https://newsletters.exploretan.com/20261022newsletter/images/hero.jpg) center no-repeat; background-size: cover; padding: 48px 44px 12px;}
+.newsletter .hero-stats {font-size: 17.5px;font-weight: 700;margin-top: 8px; color: #ffffff; font-family: "Barlow Condensed", Arial, Helvetica, sans-serif;}
+
 
 /* ---------- Header / hero ---------- */
-.newsletter .hero {background: #000000; margin: 0; padding: 0;}
 .newsletter .hero__link {display: block; border: 0; line-height: 0;}
 .newsletter .hero__image {display: block; width: 100%; max-width: 100%; height: auto; border: 0;}
 .newsletter .hero__stats {list-style: none; margin: 0; padding: 22px 16px; display: flex; justify-content: center; align-items: center; flex-wrap: wrap; background: #000000;}
@@ -36,7 +38,7 @@ h1, h2, h3, h4, h5, h6{line-height: 1.2; margin: 0;}
 .newsletter .button:hover{background-color: #01CAA8;}
 
 
-.newsletter .offer {padding: 38px 44px; background: url(https://newsletters.exploretan.com/20261022newsletter/images/offer.jpg) center no-repeat; background-size: cover;}
+.newsletter .offer {padding: 38px 44px; background: url(https://images.exploretan.com/20261001Newsletter/offer.jpg) center no-repeat; background-size: cover;}
 .newsletter .kicker {font-family: "Barlow Condensed", Arial, Helvetica, sans-serif;color: #01CAA8;letter-spacing: 0.1em;font-size: 17px; text-transform: uppercase; font-weight: 700;}
 .newsletter .kicker span{color: #ffffff; font-size: 14px; display: inline-block; margin-top: 2px;}
 .newsletter .offer h2 {font-family: "Raleway", Arial, Helvetica, sans-serif; font-size: 30px; font-weight: 800; letter-spacing: -0.02em; line-height: 1.2; padding: 14px 0 9px; color: #ffffff;}
@@ -98,6 +100,7 @@ h1, h2, h3, h4, h5, h6{line-height: 1.2; margin: 0;}
 
 	.newsletter {max-width: none;}
 	.newsletter .header {padding: 16px 24px;}
+	.newsletter .hero{padding: 48px 24px 16px;}
 	.newsletter .footer {padding: 24px;}
 
 	.newsletter .hero__stats {flex-direction: column; padding: 18px 16px;}
